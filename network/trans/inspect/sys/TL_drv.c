@@ -12,7 +12,7 @@ Abstract:
    The sample performs inspection of inbound and outbound connections as 
    well as all packets belong to those connections.  In addition the sample 
    demonstrates special considerations required to be compatible with Windows 
-   Vista and Windows Server 2008’s IpSec implementation.
+   Vista and Windows Server 2008's IpSec implementation.
 
    Inspection parameters are configurable via the following registry 
    values --
@@ -21,7 +21,7 @@ Abstract:
       
     o  BlockTraffic (REG_DWORD) : 0 (permit, default); 1 (block)
     o  RemoteAddressToInspect (REG_SZ) : literal IPv4/IPv6 string 
-                                                (e.g. “10.0.0.1”)
+                                                (e.g. "10.0.0.1")
    The sample is IP version agnostic. It performs inspection for 
    both IPv4 and IPv6 traffic.
 
